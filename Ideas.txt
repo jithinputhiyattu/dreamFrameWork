@@ -1,0 +1,9 @@
+
+1. The Main application can be a dll( glxwin32.dll ). An executable file GlxLauncher will load
+	Glxwin32.dll file and executes it.
+
+2. Additional utility programs like Calculator, Backup & Restore, DB Viewer, DB Admin etc can be
+	created using User control in dll format and renamed to some other extention, say *.adg( AddIn ). 
+	As the executable inside this dll is a user control we can easily import the file from a directory
+	and load the user control to a panel, say AutoPanelG.
+	

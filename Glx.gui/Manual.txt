@@ -1,0 +1,51 @@
+﻿Glx.Gui
+---------
+
+Dll for GUI components
+
+Custom Controls
+---------------
+
+1. AutoPanelG
+   ----------
+	An automatic panel with a title and minimize button.The panel body can
+	be minimized and maximized. The title is visible all the time.
+	
+	Additional features
+	
+		1. Can be moved by clicking and dragging the titlebar when not docked
+		2. Can switch between minimize and maximize state by
+			a) Clicking minimize button on the right
+			b) Double clicking the title bar
+		3. As this is a panel, other user controls can be placed inside. 
+
+2. SidePanelG
+   ----------
+	An automatic panel with a minimize button.The panel body can
+	be minimized and maximized. 
+	
+	Additional features
+		1. As this is a panel, other user controls can be placed inside.
+	  
+3. FormG
+   -----
+	A customized form with custom control box buttons and title bar. 
+	
+4. TitlebarG
+   ---------
+	Titlebar to be used for forms. Includes standard control box items, Minimize, Maximize|Restore, Close and a title.
+	
+	Additional features
+		1. Close button function : Close or Exit
+		2. Click and drag to move the parent form
+		3. Double click on the body to switch between Maximize and restore window state
+		
+5. HidePanelG
+   ----------
+	A simple control with a toggle button and a label. Attach a panel to the 'AttachedPanel' property, and toggle
+	between its Visible and Invisible states.
+	
+	Additional features
+		1. Set visibility of attached panel on startup by setting 'ShowAttachedPanel' property
+	
+		
